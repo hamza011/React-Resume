@@ -1,0 +1,67 @@
+.resume-portfolio{
+    background-image: url('../../images/portfolio2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 100px 50px;
+    color:white
+}
+.portfolio-heading{
+    margin-top: 0;
+}
+.icon-portfolio{
+    color: #ffc107;
+}
+.container {
+  position: relative;
+  width: 40%;
+  display: inline-block;
+  margin: 10px 10px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #6a86aa;
+  opacity: 0.9;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+  border-top: 6px solid #fff;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.portfolio-demo-link{}
+.demo-btn{
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #00BCD4;
+}

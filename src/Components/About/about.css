@@ -1,0 +1,37 @@
+.resume-about{
+    /*background-image: url('../../images/bg-header-d12a8e.png');*/
+
+    background: 
+    linear-gradient(
+      /*#43518e, 
+      rgba(255, 0, 0, 0.45)*/
+      rgba(46, 132, 195,0.45),
+      rgba(255, 0, 0, 0.35)
+    ),
+    url('../../images/cloud.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 100px 50px;
+}
+.about-cont{
+    color: #fff;
+    
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+}
+.about-content{
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    left: 9vw;
+    right: 0;
+}
+td{
+    text-align: left;
+    padding: 0 30px;
+    font-weight: 600;
+    line-height: 3;
+}

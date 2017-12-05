@@ -1,0 +1,64 @@
+.resume-edu{
+    /*background-image: url('../../images/university.jpg');*/
+
+    background: 
+    linear-gradient(
+       rgba(46, 132, 195,0.45),
+      rgba(255, 0, 0, 0.35)
+      
+    ),
+    url('../../images/university.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 100px 50px;
+    color: white;
+}
+.edu-table{
+    padding-left: 260px;
+}
+.edu-heading{
+    margin-top: 0;
+}
+.fa-graduation-cap{
+    color: lightblue;
+}
+.edu-head{
+    width: 85%;
+}
+.edu-para{
+    width: 95%;
+}
+.edu-quote {
+    font-weight: 700;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-style: italic;
+    width: 500px;
+    margin: 0.25em 0;
+    padding: 0.25em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.edu-quote:before {
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+}
+.edu-quote cite {
+color: white;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+}
+ 
+.edu-quote cite:before {
+    content: "\2014 \2009";
+}
