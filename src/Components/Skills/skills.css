@@ -55,7 +55,7 @@ blockquote {
     padding: 0.25em 40px;
     line-height: 1.45;
     position: relative;
-    color: white;
+    color: black;
     margin: 0 auto;
     margin-top: 30px;
 }
@@ -68,7 +68,7 @@ blockquote:before {
     top: -20px;
 }
 blockquote cite {
-color: white;
+color: black;
 font-size: 14px;
 display: block;
 margin-top: 5px;
