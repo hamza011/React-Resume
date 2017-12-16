@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import Header from './Components/Header/header'; 
 import About from './Components/About/about';
 import Education from './Components/Education/education';
@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/*<img src={logo} className="App-logo" alt="logo" />*/}
         {/*<header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
